@@ -2,17 +2,9 @@
   text-align: center;
   padding: 10px 0;
 }
-.movies-maindiv {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
-  padding: 10px;
-}
 .movie-div {
   border: 1px solid rgba(156, 151, 151, 0.384);
-  padding: 10px;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.411);
-  overflow: hidden;
 }
 .allmovie-imgdiv {
   width: 100%;
@@ -42,7 +34,7 @@
 .movie-div p {
   margin: 5px 10px 0 0;
 }
-.movies-maindiv button {
+.movie-div button {
   width: 100%;
   background-color: rgb(106, 240, 229);
   border: none;
@@ -54,7 +46,7 @@
   cursor: pointer;
   transition: all 0.2s;
 }
-.movies-maindiv button:hover {
+.movie-div button:hover {
   background-color: rgba(91, 221, 195, 0.822);
   color: white;
 }
