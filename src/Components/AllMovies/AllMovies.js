@@ -1,18 +1,15 @@
 import React from "react";
 import "./AllMovies.css";
 import useStore from "../../Store/useStore";
-import { Spinner } from "react-bootstrap";
+import Loading from "../Loading/Loading";
 import { Link } from "react-router-dom";
 
 const AllMovies = () => {
   const { movies, loading } = useStore();
-  console.log(movies);
   return (
     <>
       {loading ? (
-        <div className="spinner">
-          <Spinner animation="border" variant="success" />
-        </div>
+        <Loading />
       ) : (
         <div>
           <h2 className="header">Book your desire Movie Ticket</h2>

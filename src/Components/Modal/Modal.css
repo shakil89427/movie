@@ -1,0 +1,58 @@
+.modal-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-form {
+  width: 400px;
+  height: 500px;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  animation: modalanimation 0.5s forwards;
+}
+.modal-form input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+.bottom button {
+  margin: 0 10px;
+  border: none;
+  padding: 5px 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.bottom :nth-child(1) {
+  background-color: red;
+  color: white;
+}
+.bottom :nth-child(2) {
+  background-color: green;
+  color: white;
+}
+.top p {
+  margin: 0;
+  text-align: left;
+}
+
+@keyframes modalanimation {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}

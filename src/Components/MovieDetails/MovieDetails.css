@@ -1,0 +1,50 @@
+.detail-main {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  padding: 20px;
+}
+.movie-imagediv {
+  width: 30%;
+  padding: 20px;
+  border-right: 2px solid gray;
+}
+.movie-image {
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0px 0px 10px white;
+  border-radius: 20px;
+}
+.movie-info {
+  width: 70%;
+  padding: 20px;
+}
+.small-info {
+  display: flex;
+  align-items: center;
+}
+.item {
+  display: flex;
+  align-items: center;
+  color: rgb(230, 46, 46);
+}
+.item p {
+  margin: 0px 25px 0 5px;
+}
+.summary {
+  margin: 15px 0;
+}
+.more-info {
+  text-decoration: none;
+  margin-left: 5px;
+}
+.book {
+  background-color: aqua;
+  border: none;
+  padding: 5px 20px;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+.book:hover {
+  background-color: aquamarine;
+}
