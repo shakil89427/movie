@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./MovieDetails.css";
 import useStore from "../../Store/useStore.js";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { File, Play, Star, Translate } from "react-bootstrap-icons";
 import Loading from "../Loading/Loading";
 import Modal from "../Modal/Modal";
